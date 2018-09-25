@@ -1,4 +1,5 @@
-Image Pattern Matching
+#Image Pattern Matching
+
 Finds patterns in an "image" (a grid of ascii characters) and reports the number of matches each pattern has on the images and where they occur. The result is printed in the console and saved in output.txt files. This program is merely an abstraction and simplification of the real life problem.
 
 Version 1 - Child processes are clones of their parents:
