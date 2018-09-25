@@ -7,11 +7,6 @@ Create child processes equal to the number of image files
 Each child will check to see if the pattern files match with their image 
 Results are written to files named after the PID of each process 
 
-Version 2 - Child Processes load a separate program
-
-main.c -> creates the child processes which launch the helper program for the processes to execute. Then wait for the child processes to finish
-helper.c -> execute the pattern search and write the matches to the output files
-
-Version 3 - Child processes report their results via a pipe
+Version 2 - Child processes report their results via a pipe
 
 Child processes send their report via an unnamed pipe
